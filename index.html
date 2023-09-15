@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>xql</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	</meta>
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230915193639">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<a href="" class="logo">
+						<img src="img/logo.svg" alt="Link to home page">
+					</a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<div data-dropdown="md" class="menu__dropdown dropdown-menu">
+									<button type="button" data-dropdown-btn class="dropdown-menu__toggle">
+										<span>Courses</span>
+										<svg data-dropdown-arrow xmlns="http://www.w3.org/2000/svg" class="dropdown-menu__arrow"
+											viewBox="0 0 24 24" fill="currentColor">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.46967 8.46967C5.76256 8.17678 6.23744 8.17678 6.53033 8.46967L12 13.9393L17.4697 8.46967C17.7626 8.17678 18.2374 8.17678 18.5303 8.46967C18.8232 8.76256 18.8232 9.23744 18.5303 9.53033L12.5303 15.5303C12.2374 15.8232 11.7626 15.8232 11.4697 15.5303L5.46967 9.53033C5.17678 9.23744 5.17678 8.76256 5.46967 8.46967Z" />
+										</svg>
+									</button>
+									<div data-dropdown-body class="dropdown-menu__body">
+										<ul class="dropdown-menu__list">
+											<li class="dropdown-menu__item"><a href="">Link 1</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 2</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 3</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 4</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item">
+								<div data-dropdown="md" class="menu__dropdown dropdown-menu">
+									<button type="button" data-dropdown-btn class="dropdown-menu__toggle">
+										<span>Consulting services</span>
+										<svg data-dropdown-arrow xmlns="http://www.w3.org/2000/svg" class="dropdown-menu__arrow"
+											viewBox="0 0 24 24" fill="currentColor">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.46967 8.46967C5.76256 8.17678 6.23744 8.17678 6.53033 8.46967L12 13.9393L17.4697 8.46967C17.7626 8.17678 18.2374 8.17678 18.5303 8.46967C18.8232 8.76256 18.8232 9.23744 18.5303 9.53033L12.5303 15.5303C12.2374 15.8232 11.7626 15.8232 11.4697 15.5303L5.46967 9.53033C5.17678 9.23744 5.17678 8.76256 5.46967 8.46967Z" />
+										</svg>
+									</button>
+									<ul data-dropdown-body class="dropdown-menu__body">
+										<ul class="dropdown-menu__list">
+											<li class="dropdown-menu__item"><a href="">Link 1</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 2</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 3</a></li>
+											<li class="dropdown-menu__item"><a href="">Link 4</a></li>
+										</ul>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item"><a href="">Podcasts</a></li>
+							<li class="menu__item"><a href="">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__right">
+					<a href="" class="btn btn_secondary-light header__btn">Book a call</a>
+					<button data-menu="md" type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero hero__container_big card-section">
+				<div class=" card">
+					<div class="hero__container">
+						<div class="hero__content">
+							<h1 class="display-1 mb-24">Courses & Consulting
+								for Software Development Companies</h1>
+							<div class="hero__text">
+								<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals
+									with target accounts, create a stable demand for your product and accelerate growth.</p>
+							</div>
+							<div class="hero__cards-wrap">
+								<div class="hero__cards">
+									<a href="" class="hero__card card-hero ">
+										<div>
+											<div class="subtitle card-hero__subtitle">BOOST YOUR SALES WITH</div>
+											<h3 class="card-hero__title">Courses</h3>
+										</div>
+										<div class="card-hero__pseudo-link">
+											<span>Learn more</span>
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M14.4697 7.46967C14.7626 7.17678 15.2374 7.17678 15.5303 7.46967L19.5298 11.4692V11.4692C19.6691 11.6085 19.7449 11.7851 19.7498 11.981C19.7499 11.9873 19.75 11.9936 19.75 12C19.75 12.1919 19.6768 12.3839 19.5303 12.5303V12.5303L15.5303 16.5303C15.2374 16.8232 14.7626 16.8232 14.4697 16.5303C14.1768 16.2374 14.1768 15.7626 14.4697 15.4697L17.1893 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H17.1893L14.4697 8.53033C14.1768 8.23744 14.1768 7.76256 14.4697 7.46967Z" />
+											</svg>
+										</div>
+									</a>
+									<a href="" class="hero__card card-hero card-hero_light">
+										<div>
+											<div class="subtitle card-hero__subtitle">BOOST YOUR SALES WITH</div>
+											<h3 class="card-hero__title">Consulting</h3>
+										</div>
+										<div class="card-hero__pseudo-link">
+											<span>Learn more</span>
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M14.4697 7.46967C14.7626 7.17678 15.2374 7.17678 15.5303 7.46967L19.5298 11.4692V11.4692C19.6691 11.6085 19.7449 11.7851 19.7498 11.981C19.7499 11.9873 19.75 11.9936 19.75 12C19.75 12.1919 19.6768 12.3839 19.5303 12.5303V12.5303L15.5303 16.5303C15.2374 16.8232 14.7626 16.8232 14.4697 16.5303C14.1768 16.2374 14.1768 15.7626 14.4697 15.4697L17.1893 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H17.1893L14.4697 8.53033C14.1768 8.23744 14.1768 7.76256 14.4697 7.46967Z" />
+											</svg>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="hero__decor decor-hero">
+							<div class="decor-hero__item decor-hero__item_1">
+								<div data-prlx-mouse data-prlx-cx="54" data-prlx-cy="120">
+									<picture>
+										<source srcset="img/hero/03.webp" type="image/webp"><img src="img/hero/03.png" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="decor-hero__item decor-hero__item_2">
+								<div data-prlx-mouse data-prlx-cx="70" data-prlx-cy="120" data-prlx-dxr>
+									<picture>
+										<source srcset="img/hero/01.webp" type="image/webp"><img src="img/hero/01.png" alt="">
+									</picture>
+								</div>
+							</div>
+							<div class="decor-hero__item decor-hero__item_3">
+								<div data-prlx-mouse data-prlx-cx="70" data-prlx-cy="120" data-prlx-dyr>
+									<picture>
+										<source srcset="img/hero/02'.webp" type="image/webp"><img src="img/hero/02'.png" alt="">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="clients">
+				<div class="clients__container">
+					<h2 data-watch="top" data-watch-once class="display-2 mb-24 slide-02s">Our clients</h2>
+					<div data-watch="top" data-watch-once class="clients__items ">
+						<div>
+							<picture>
+								<source srcset="img/clients/01.webp" type="image/webp"><img src="img/clients/01.png" alt="inoxoft">
+							</picture>
+						</div>
+						<div> <img src="img/clients/02.svg" alt="devcom"></div>
+						<div><img src="img/clients/03.svg" alt="relevant"></div>
+						<div><img src="img/clients/04.svg" alt="riseapps"></div>
+						<div> <img src="img/clients/05.svg" alt="wesoftyou"></div>
+						<div> <img src="img/clients/06.svg" alt="artcal"></div>
+					</div>
+				</div>
+			</section>
+			<section class="founder card-section founder__container_big">
+				<div class="card">
+					<div class="founder__container">
+						<div class="founder__shape shape"></div>
+						<div data-watch="top" data-watch-once class="founder__left slide-02s">
+							<div class="subtitle founder__subtitle">Founder of XQL Academy and core expert</div>
+							<div data-prlx-mouse data-prlx-cx="114" data-prlx-cy="114" class="founder__decor ">
+								<picture>
+									<source srcset="img/founder/decor.webp" type="image/webp"><img src="img/founder/decor.png" alt="">
+								</picture>
+							</div>
+							<div>
+								<h2 class="founder__title">Danylo</h2>
+								<div class="founder__text">
+									<p>Inbound marketing consultant with 8 years of experience in marketing. Worked with more than 20 IT
+										outsourcing companies.</p>
+									<p>Within a year, drove Relevant to 50,000 traffic and 70+ monthly leads. Generated over $10,000,000
+										in
+										pipeline value in a year. Closed the first inbound client within the first 3 months.</p>
+								</div>
+							</div>
+						</div>
+						<div data-watch="top" data-watch-once class="founder__right-ibg fade-04s">
+							<picture>
+								<source srcset="img/founder/01.webp" type="image/webp"><img loading="lazy" src="img/founder/01.jpg"
+									alt="Danylo">
+							</picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="stats stats__container_big card-section slide-items-02s">
+				<div data-watch="top" data-watch-once class="stats__card card-stats card">
+					<div class="card-stats__value">20+</div>
+					<h3 class="card-stats__label">Companies have worked with me</h3>
+				</div>
+				<div data-watch="top" data-watch-once class="stats__card card-stats card">
+					<div class="card-stats__value">150+</div>
+					<h3 class="card-stats__label">Satisfied students who have completed the course</h3>
+				</div>
+				<div data-watch="top" data-watch-once class="stats__card card-stats card">
+					<div class="card-stats__value">$20m+</div>
+					<h3 class="card-stats__label">Opportunities generated for clients</h3>
+				</div>
+			</section>
+			<section class="services services__container_big card-section">
+				<div class="card">
+					<div class="services__container ">
+						<div data-watch="top" data-watch-once class="services__left slide-02s">
+							<div class="subtitle">Our services</div>
+							<h2 class="display-2 mb-24">Courses</h2>
+							<div class="services__text">
+								<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+									accounts, create a stable demand for your product and accelerate growth.</p>
+							</div>
+							<div data-prlx-mouse data-prlx-cx="130" data-prlx-cy="90" class="services__decor">
+								<picture>
+									<source srcset="img/services/01.webp" type="image/webp"><img src="img/services/01.png" alt="">
+								</picture>
+							</div>
+						</div>
+						<div data-watch="top" data-watch-once class="services__right slide-04s">
+							<div class="services__card card-services">
+								<div>
+									<div class="subtitle card-services__subtitle">Courses</div>
+									<h3 class="card-services__title mb-24">Marketing for IT Companies</h3>
+								</div>
+
+								<div class="card-services__text">
+									<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+										accounts, create a stable demand for your product and accelerate growth.</p>
+									<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+										accounts, create a stable demand for your product and accelerate growth.</p>
+								</div>
+								<div class="card-services__link link-card-services">
+									<a href="" class="link-card-services__text">Learn more</a>
+									<a href="" class="link-card-services__icon">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M14.4697 7.46967C14.7626 7.17678 15.2374 7.17678 15.5303 7.46967L19.5298 11.4692C19.6691 11.6085 19.7449 11.7851 19.7498 11.981C19.7499 11.9873 19.75 11.9936 19.75 12C19.75 12.1919 19.6768 12.3839 19.5303 12.5303L15.5303 16.5303C15.2374 16.8232 14.7626 16.8232 14.4697 16.5303C14.1768 16.2374 14.1768 15.7626 14.4697 15.4697L17.1893 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H17.1893L14.4697 8.53033C14.1768 8.23744 14.1768 7.76256 14.4697 7.46967Z" />
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="services__card card-services">
+								<div>
+									<div class="subtitle card-services__subtitle">BOOST YOUR SALES WITH</div>
+									<h3 class="card-services__title mb-24">Courses</h3>
+								</div>
+								<div>
+									<div class="card-services__text">
+										<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+											accounts, create a stable demand for your product and accelerate growth.</p>
+										<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+											accounts, create a stable demand for your product and accelerate growth.</p>
+									</div>
+									<div class="card-services__link link-card-services">
+										<a href="" class="link-card-services__text">Learn more</a>
+										<a href="" class="link-card-services__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M14.4697 7.46967C14.7626 7.17678 15.2374 7.17678 15.5303 7.46967L19.5298 11.4692C19.6691 11.6085 19.7449 11.7851 19.7498 11.981C19.7499 11.9873 19.75 11.9936 19.75 12C19.75 12.1919 19.6768 12.3839 19.5303 12.5303L15.5303 16.5303C15.2374 16.8232 14.7626 16.8232 14.4697 16.5303C14.1768 16.2374 14.1768 15.7626 14.4697 15.4697L17.1893 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H17.1893L14.4697 8.53033C14.1768 8.23744 14.1768 7.76256 14.4697 7.46967Z" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="services__card card-services">
+								<div>
+									<div class="subtitle card-services__subtitle">BOOST YOUR SALES WITH</div>
+									<h3 class="card-services__title mb-24">Marketing for IT outsourcing companies</h3>
+								</div>
+								<div>
+									<div class="card-services__text">
+										<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+											accounts, create a stable demand for your product and accelerate growth.</p>
+										<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+											accounts, create a stable demand for your product and accelerate growth.</p>
+									</div>
+									<div class="card-services__link link-card-services">
+										<a href="" class="link-card-services__text">Learn more</a>
+										<a href="" class="link-card-services__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M14.4697 7.46967C14.7626 7.17678 15.2374 7.17678 15.5303 7.46967L19.5298 11.4692C19.6691 11.6085 19.7449 11.7851 19.7498 11.981C19.7499 11.9873 19.75 11.9936 19.75 12C19.75 12.1919 19.6768 12.3839 19.5303 12.5303L15.5303 16.5303C15.2374 16.8232 14.7626 16.8232 14.4697 16.5303C14.1768 16.2374 14.1768 15.7626 14.4697 15.4697L17.1893 12.75H5C4.58579 12.75 4.25 12.4142 4.25 12C4.25 11.5858 4.58579 11.25 5 11.25H17.1893L14.4697 8.53033C14.1768 8.23744 14.1768 7.76256 14.4697 7.46967Z" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services services__container_big card-section">
+				<div class="card">
+					<div class="services__container">
+						<div class="services__left">
+							<div class="services__shape shape"></div>
+							<div data-watch="top" data-watch-once class="slide-02s">
+								<div class="subtitle">Our services</div>
+								<h2 class="display-2 mb-24">Consulting</h2>
+								<div class="services__text">
+									<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+										accounts, create a stable demand for your product and accelerate growth.</p>
+								</div>
+								<div data-prlx-mouse data-prlx-cx="130" data-prlx-cy="90" class="services__decor">
+									<picture>
+										<source srcset="img/services/02.webp" type="image/webp"><img src="img/services/02.png" alt="">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div data-watch="top" data-watch-once class="services__right slide-02s">
+							<div class="services__card card-services card-services_light">
+								<div>
+									<div class="subtitle card-services__subtitle">Demand & Content Services</div>
+									<h3 class="card-services__title mb-24">Inbound Marketing Setup</h3>
+								</div>
+
+								<div class="card-services__text">
+									<p>We embed with your team, leading demand strategy, execution and infrastructure. We concept and
+										craft the content you need to tell your story.</p>
+
+
+								</div>
+								<div class="card-services__price">Starting at $19,500 / mo.</div>
+								<div class="card-services__btns">
+									<a href="" class="btn services__btn">Book a Strategy Call</a>
+									<a href="" class="btn btn_secondary services__btn">Learn more</a>
+								</div>
+							</div>
+							<div class="services__card card-services card-services_light">
+								<div>
+									<div class="subtitle card-services__subtitle">Demand & Content Services</div>
+									<h3 class="card-services__title mb-24">Marketing Audit</h3>
+								</div>
+
+								<div class="card-services__text">
+									<p>We embed with your team, leading demand strategy, execution and infrastructure. We concept and
+										craft the content you need to tell your story.</p>
+
+
+								</div>
+								<div class="card-services__price">Starting at $19,500 / mo.</div>
+								<div class="card-services__btns">
+									<a href="" class="btn services__btn">Book a Strategy Call</a>
+									<a href="" class="btn btn_secondary services__btn">Learn more</a>
+								</div>
+							</div>
+							<div class="services__card card-services card-services_light">
+								<div>
+									<div class="subtitle card-services__subtitle">Data-Driven Research & Insights</div>
+									<h3 class="card-services__title mb-24">ABM Campaign</h3>
+								</div>
+
+								<div class="card-services__text">
+									<p>Your one-stop shop for all our proven playbooks, processes and templates to enable your self-guided
+										demand transformation.</p>
+
+
+								</div>
+								<div class="card-services__price">Starting at $1,500 / mo.</div>
+								<div class="card-services__btns">
+									<a href="" class="btn services__btn">Try for free</a>
+									<a href="" class="btn btn_secondary services__btn">Learn more</a>
+								</div>
+							</div>
+							<div class="services__card card-services card-services_light">
+								<div>
+									<div class="subtitle card-services__subtitle">Data-Driven Research & Insights</div>
+									<h3 class="card-services__title mb-24">Q&A</h3>
+								</div>
+
+								<div class="card-services__text">
+									<p>Your one-stop shop for all our proven playbooks, processes and templates to enable your self-guided
+										demand transformation.</p>
+
+
+								</div>
+								<div class="card-services__price">Starting at $1,500 / mo.</div>
+								<div class="card-services__btns">
+									<a href="" class="btn services__btn">Try for free</a>
+									<a href="" class="btn btn_secondary services__btn">Learn more</a>
+								</div>
+							</div>
+
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="testimonials">
+				<div data-watch="top" data-watch-once class="testimonials__container_big">
+					<h2 class="testimonials__title display-2">Customer stories</h2>
+					<div data-masonry class="testimonials__items">
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>From the moment we initiated our partnership, the XQL team demonstrated an exceptional level
+								of professionalism and expertise that surpassed our expectations.</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/01.webp" type="image/webp"><img src="img/testimonials/01.jpg"
+											alt="Terry Dokidis">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Terry Dokidis</div>
+									<div class="item-testimonials__job-title">Marketing manager</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>The course I took from XQL was an absolute game-changer. The content was comprehensive,
+								well-structured. </p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/02.webp" type="image/webp"><img src="img/testimonials/02.jpg"
+											alt="Gretchen Carder">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Gretchen Carder</div>
+									<div class="item-testimonials__job-title">Ecommerce owner</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>I gained valuable insights and practical skills that I could immediately apply to my work.</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/03.webp" type="image/webp"><img src="img/testimonials/03.jpg"
+											alt="Jaydon Korsgaard">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Jaydon Korsgaard</div>
+									<div class="item-testimonials__job-title">Marketing manager</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>From the moment we initiated our partnership, the XQL team demonstrated an exceptional level
+								of professionalism and expertise that surpassed our expectations. Their consultants exhibited a profound
+								understanding of our industry landscape and swiftly grasped the intricacies of our </p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/04.webp" type="image/webp"><img src="img/testimonials/04.jpg"
+											alt="Hanna Westervelt">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Hanna Westervelt</div>
+									<div class="item-testimonials__job-title">Head of Marketing</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>From the moment we initiated our partnership, the XQL team demonstrated an exceptional level
+								of professionalism and expertise that surpassed our expectations. Their consultants exhibited a profound
+								understanding of our industry landscape and swiftly grasped the intricacies of our</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/05.webp" type="image/webp"><img src="img/testimonials/05.jpg"
+											alt="Zain Mango">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Zain Mango</div>
+									<div class="item-testimonials__job-title">Head of Marketing</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>The course I took from XQL was an absolute game-changer. The content was comprehensive,
+								well-structured, and delivered by industry experts. I gained valuable insights and practical skills that
+								I could immediately apply to my work.</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/06.webp" type="image/webp"><img src="img/testimonials/06.jpg"
+											alt="Ahmad Kenter">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Ahmad Kenter</div>
+									<div class="item-testimonials__job-title">Marketing manager</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>XQL has exceeded our expectations with their professionalism and expertise from day one. Their team of
+								consultants displayed an impressive grasp of our industry landscape and quickly understood the intricate
+								marketing challenges specific to our organization.</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/07.webp" type="image/webp"><img src="img/testimonials/07.jpg"
+											alt="Ahmad Kenter">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Ahmad Kenter</div>
+									<div class="item-testimonials__job-title">CMO</div>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__item item-testimonials">
+							<div class="item-testimonials__logo">
+								<img src="img/testimonials/logo.svg" alt="lookscoat">
+							</div>
+							<p>From the moment we initiated our partnership, the XQL team demonstrated an exceptional level
+								of professionalism and expertise that surpassed our expectations.</p>
+							<div class="item-testimonials__customer">
+								<div class="item-testimonials__avatar-ibg">
+									<picture>
+										<source srcset="img/testimonials/08.webp" type="image/webp"><img src="img/testimonials/08.jpg"
+											alt="Anika Vetrovs">
+									</picture>
+								</div>
+								<div>
+									<div class="item-testimonials__name">Anika Vetrovs</div>
+									<div class="item-testimonials__job-title">Marketing manager</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="podcast podcast__container_big card-section">
+				<div class="shape podcast__shape"></div>
+				<div class="card">
+					<div class="podcast__container">
+						<div data-watch="top" data-watch-once class="podcast__left slide-02s">
+							<div class="subtitle">our services</div>
+							<h2 class="display-2 mb-24">Podcast</h2>
+							<div class="podcast__text">
+								<p>We train and guide your B2B marketing and sales teams to connect, engage & win deals with target
+									accounts, create a stable demand for your product and accelerate growth.</p>
+							</div>
+							<a href="" class="btn btn_secondary-light">Learn more</a>
+						</div>
+						<div data-watch="top" data-watch-once class="podcast__right fade-04s">
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts contacts__container_big card-section">
+				<div class="shape contacts__shape"></div>
+				<div class="card">
+					<div class="contacts__container">
+						<div data-watch="top" data-watch-once class="contacts__left slide-02s">
+							<div>
+								<div class="subtitle">Contacts</div>
+								<h2 class="display-2 mb-24">Need assistance? Let us help you choose the right service</h2>
+								<p>Fill out the form for a free consultation with Danylo</p>
+							</div>
+							<ul class="contacts__media media">
+								<li><a data-lottie="files/facebook.json" href="" class=" media__icon">
+									</a></li>
+								<li><a data-lottie="files/facebook.json" href="" class=" media__icon">
+									</a></li>
+								<li><a data-lottie="files/facebook.json" href="" class=" media__icon">
+									</a></li>
+							</ul>
+							<div>
+								<div class="contacts__call-label">
+									Call us:
+								</div>
+								<a href="" class="contacts__call-number">+38 094 828 80 67</a>
+							</div>
+						</div>
+						<div data-watch="top" data-watch-once class="conatcts__right slide-04s">
+							<form action="" class="contact-form">
+								<div>
+									<div class="contact-form__input-wrap">
+										<input autocomplete="off" type="text" name="form[]" class="contact-form__input" placeholder="Name *"
+											data-error="Enter correct name" data-validate data-required>
+									</div>
+									<div class="contact-form__input-wrap">
+										<input autocomplete="off" type="text" name="form[]" class="contact-form__input"
+											placeholder="Email *" data-error="Enter correct email address" data-validate
+											data-required="email">
+									</div>
+									<div>
+										<textarea autocomplete="off" type="text" name="form[]" class="contact-form__textarea"
+											data-autoheight data-autoheight-max='165' placeholder="Message (optional)"></textarea>
+									</div>
+
+								</div>
+								<p>By sending this form, I am giving a consent to process my personal data provided in the form above in
+									accordance with XQL Privacy Policy and Cookies Policy.</p>
+								<button type="submit" class="btn btn_light">Send</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container_big">
+				<div class="footer__text footer__rights">© 2023 All Rights Reserved</div>
+				<ul class="footer__menu">
+					<li><a href="" class="footer__text">Contacts</a></li>
+					<li><a href="" class="footer__text">Courses</a></li>
+					<li><a href="" class="footer__text">Consulting</a></li>
+					<li><a href="" class="footer__text">Podcast</a></li>
+				</ul>
+				<div class="footer__rigth">
+					<a href="" class="footer__text">Privacy Policy</a>
+					<a href="" class="footer__text">Cookies Policy</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230915193639"></script>
+</body>
+
+</html>
